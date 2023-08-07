@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://unpkg.com/transition-style">
+
+    <link rel="stylesheet" href="css/estilo.css">
+  
+
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 row0">
+                <nav class="navbar navbar-expand-lg">
+                    <a href="#ir" class="nombre" id="ir"><h1>IR</h1></a>
+
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#sobreMi">Sobre Mi</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#proyectos">Porfolio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#contacto">Contacto</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+
+        <div class="row row1">
+            <div class="col-lg-6" data-aos="fade-right">
+                <div class="presentacion">
+                    <h1>Ignacio Rojos</h1>
+                    <h2>Desarrollador Front-End</h2>
+                    <a href="#proyectos"><button class="btn btn-primary">Ver Proyectos</button></a>
+                </div>
+               
+                
+            </div>
+            <div class="col-lg-6" transition-style ="in:square:bottom-left">
+                <img class="fotoDec" src="assets/img/desarrollador-750x350.jpg">
+            </div>
+        </div>
+        
+        <div class="row row2" id="sobreMi">
+            <div class="col-lg-12">
+                <h2>¿Quien Soy?</h2>
+                <p>Trabajé en varios proyecto de Desarrollo Web, donde repliqué páginas webs con sus respectivas funcionalidades, estos fueron tratados con: HTML, CSS, JS Y REACT JS. 
+                    Creé una página web de contacto para un emprendedor dedicado al servicio técnico de computadoras y notebooks.
+                    Durante el cursado de Ingeniería en Sistemas desarrollé en PYTHON proyectos educativos, estos fueron llevados a cabo en grupos, 
+                    donde participé de manera proactiva tanto individual y colectivamente.
+                </p>
+                <a download="Curriculim" href="Curriculum 2.pdf"><button class="btn btn-primary">Descargar Cv</button></a>
+            </div>
+            <div class="row row3">
+                <div class="col-lg-6 hab">
+                    <h2>Habilidades</h2>
+                </div>
+                <div class="col">
+                    <div class="row row-cols-1 row-cols-md-3 g-4 habilidades">
+                        <img  class="fotoHab" src="assets/img/css.jpg">
+                        <img  class="fotoHab" src="assets/img/html.jpg">
+                        <img  class="fotoHab" src="assets/img/github.png">
+                    </div>
+                    <div class="row row-cols-1 row-cols-md-3 g-4 habilidades">
+                        <img  class="fotoHab" src="assets/img/JavaScript.jpg">
+                        <img  class="fotoHab" src="assets/img/nodejs.png">
+                        <img  class="fotoHab" src="assets/img/React.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row row4">
+            <div class="col-lg-12" id="proyectos">
+                <h2 class="tituloProyecto">Mis Proyectos</h2>
+                <div class="col">
+                    <div class="row row-cols-1 row-cols-md-3 g-4 habilidades">
+                        <div class="card" style="width: 18rem;">
+                            <img src="assets/img/logoPagina.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">H.I.R Reparaciones</h5>
+                              <p class="card-text">BREVE DESCRIPCIÓN</p>
+                              <a href="https://github.com/IgnacioRojos/HIR-reparaciones.git" target="_blank" class="btn btn-primary">Ver Repositorio</a>
+                              <a href="https://ignaciorojos.github.io/HIR-reparaciones/" target="_blank" class="btn btn-primary boton">Ver Página</a>
+                            </div>
+                        </div>
+                        <div class="card" style="width: 18rem;">
+                            <img src="assets/img/estudio.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Busca A Tu Profe</h5>
+                              <p class="card-text">Esta página se basa en poder encontrar algún profe particular que te pueda ayudar con tus materias pendientes</p>
+                              <a href="https://github.com/IgnacioRojos/Tu-Profe-Particular.git" target="_blank" class="btn btn-primary">Ver Repositorio</a>
+                              <a href="https://ignaciorojos.github.io/Tu-Profe-Particular/" target="_blank" class="btn btn-primary boton">Ver Página</a>
+                            </div>
+                        </div>
+                        <div class="card" style="width: 18rem;">
+                            <img src="assets/img/auto.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Concesionario Sport</h5>
+                              <p class="card-text">Concesionario Sport es una pagina donde se puede comprar y vender autos, ya sean usados o nuevos.</p>
+                              <a href="https://github.com/IgnacioRojos/Concesionario-Sport.git" target="_blank" class="btn btn-primary">Ver Repositorio</a>
+                              <a href="https://ignaciorojos.github.io/Concesionario-Sport/" target="_blank" class="btn btn-primary boton">Ver Página</a>
+                            </div>
+                        </div>
+                        <div class="card" style="width: 18rem;">
+                            <img src="assets/img/auto.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Concesionario Sport simulador React Js</h5>
+                              <p class="card-text">Este fue un proyecto que realize para una entrega final del curso de react js, donde simulo una compra de un auto,este
+                                proyecto no se puede ver desplegado ya que necesita instalarse en el servidor local (no esta subido a un servidor)
+                              </p>
+                              <a href="https://github.com/IgnacioRojos/Concesionario-Sport-React-Js.git" target="_blank" class="btn btn-primary">Ver Repositorio</a>
+                            </div>
+                        </div>
+                        <div class="card" style="width: 18rem;">
+                            <img src="assets/img/auto.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Concesionario Sport simulador Js</h5>
+                              <p class="card-text">Este fue un proyecto que realize para una entrega final del curso de react js, donde simulo una compra de un auto.
+                              </p>
+                              <a href="https://github.com/IgnacioRojos/Concesionario-Sport-simulador-de-compra.git" target="_blank" class="btn btn-primary">Ver Repositorio</a>
+                              <a href="https://ignaciorojos.github.io/Concesionario-Sport-simulador-de-compra/" target="_blank" class="btn btn-primary boton">Ver Página</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+
+        <div class="row row5">
+            <div class="col-lg-12">
+            
+                <form id="contacto">
+                    <h2>Contacto</h2>
+                    <div class="mb-3 row">
+                        <label class="col-sm-2 col-form-label">Email</label>
+                        <div class="col-sm-10">
+                          <input type="text" class="form-control" id="staticEmail">
+                        </div>
+                      </div>
+                      <div class="mb-3 row">
+                        <label class="col-sm-2 col-form-label">Nombre</label>
+                        <div class="col-sm-10">
+                          <input type="text" class="form-control" id="inputPassword">
+                        </div>
+                      </div>
+                      <div class="mb-3 row">
+                        <label class="col-sm-2 col-form-label">Asunto</label>
+                        <div class="col-sm-10">
+                          <input type="text" class="form-control" id="inputAsunto">
+                        </div>
+                      </div>
+                      <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">Comentario</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                      </div>
+                      <div class="col-auto">
+                        <button type="submit" class="btn btn-primary mb-3">Enviar</button>
+                      </div>
+                </form>
+            </div>
+        </div>
+        
+        
+        
+
+
+
+
+    
+
+    </div>
+
+   
+    
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js" integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    
+   
+	<script>
+  		AOS.init();
+	</script>
+    
+
+</body>
+</html>
