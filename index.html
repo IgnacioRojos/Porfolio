@@ -12,10 +12,14 @@
 
     <link rel="stylesheet" href="https://unpkg.com/transition-style">
 
+    <script src="https://kit.fontawesome.com/f4f3d321c1.js" crossorigin="anonymous"></script>
+    
     <link rel="stylesheet" href="css/estilo.css">
+
+    <script defer src="js/main.js"></script>
+
+
   
-
-
 </head>
 
 <body>
@@ -31,7 +35,7 @@
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav">
                             <li class="nav-item">
-                                <a class="nav-link active" href="#sobreMi">Sobre Mi</a>
+                                <a class="nav-link" href="#sobreMi">Sobre Mi</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#proyectos">Porfolio</a>
@@ -41,6 +45,13 @@
                             </li>
                         </ul>
                     </div>
+
+                    <button class="switch" id="switch">
+                        <span><i class="fa-sharp fa-solid fa-sun"></i></span>
+                        <span><i class="fa-solid fa-moon"></i></span>
+                    </button>
+                  
+
                 </nav>
             </div>
         </div>
@@ -63,12 +74,12 @@
         <div class="row row2" id="sobreMi">
             <div class="col-lg-12">
                 <h2>¿Quien Soy?</h2>
-                <p>Trabajé en varios proyecto de Desarrollo Web, donde repliqué páginas webs con sus respectivas funcionalidades, estos fueron tratados con: HTML, CSS, JS Y REACT JS. 
+                <div class="texto">Trabajé en varios proyecto de Desarrollo Web, donde repliqué páginas webs con sus respectivas funcionalidades, estos fueron tratados con: HTML, CSS, JS Y REACT JS. 
                     Creé una página web de contacto para un emprendedor dedicado al servicio técnico de computadoras y notebooks.
                     Durante el cursado de Ingeniería en Sistemas desarrollé en PYTHON proyectos educativos, estos fueron llevados a cabo en grupos, 
                     donde participé de manera proactiva tanto individual y colectivamente.
-                </p>
-                <a download="Curriculim" href="Curriculum 2.pdf"><button class="btn btn-primary">Descargar Cv</button></a>
+                </div>
+                <a download="Curriculim" href="Curriculum 2.pdf"><button class="btn btn-primary boton1">Descargar Cv</button></a>
             </div>
             <div class="row row3">
                 <div class="col-lg-6 hab">
@@ -94,51 +105,69 @@
                 <h2 class="tituloProyecto">Mis Proyectos</h2>
                 <div class="col">
                     <div class="row row-cols-1 row-cols-md-3 g-4 habilidades">
+
                         <div class="card" style="width: 18rem;">
                             <img src="assets/img/logoPagina.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
                               <h5 class="card-title">H.I.R Reparaciones</h5>
                               <p class="card-text">BREVE DESCRIPCIÓN</p>
-                              <a href="https://github.com/IgnacioRojos/HIR-reparaciones.git" target="_blank" class="btn btn-primary">Ver Repositorio</a>
-                              <a href="https://ignaciorojos.github.io/HIR-reparaciones/" target="_blank" class="btn btn-primary boton">Ver Página</a>
+                              <a href="https://github.com/IgnacioRojos/HIR-reparaciones.git" target="_blank" class="btn btn-primary boton1">Ver Repositorio</a>
+                              <a href="https://ignaciorojos.github.io/HIR-reparaciones/" target="_blank" class="btn btn-primary boton boton1">Ver Página</a>
                             </div>
                         </div>
+                        
                         <div class="card" style="width: 18rem;">
                             <img src="assets/img/estudio.png" class="card-img-top" alt="...">
                             <div class="card-body">
                               <h5 class="card-title">Busca A Tu Profe</h5>
                               <p class="card-text">Esta página se basa en poder encontrar algún profe particular que te pueda ayudar con tus materias pendientes</p>
-                              <a href="https://github.com/IgnacioRojos/Tu-Profe-Particular.git" target="_blank" class="btn btn-primary">Ver Repositorio</a>
-                              <a href="https://ignaciorojos.github.io/Tu-Profe-Particular/" target="_blank" class="btn btn-primary boton">Ver Página</a>
+                              <a href="https://github.com/IgnacioRojos/Tu-Profe-Particular.git" target="_blank" class="btn btn-primary boton1">Ver Repositorio</a>
+                              <a href="https://ignaciorojos.github.io/Tu-Profe-Particular/" target="_blank" class="btn btn-primary boton boton1">Ver Página</a>
                             </div>
                         </div>
+
                         <div class="card" style="width: 18rem;">
                             <img src="assets/img/auto.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
                               <h5 class="card-title">Concesionario Sport</h5>
                               <p class="card-text">Concesionario Sport es una pagina donde se puede comprar y vender autos, ya sean usados o nuevos.</p>
-                              <a href="https://github.com/IgnacioRojos/Concesionario-Sport.git" target="_blank" class="btn btn-primary">Ver Repositorio</a>
-                              <a href="https://ignaciorojos.github.io/Concesionario-Sport/" target="_blank" class="btn btn-primary boton">Ver Página</a>
+                              <a href="https://github.com/IgnacioRojos/Concesionario-Sport.git" target="_blank" class="btn btn-primary boton1">Ver Repositorio</a>
+                              <a href="https://ignaciorojos.github.io/Concesionario-Sport/" target="_blank" class="btn btn-primary boton boton1">Ver Página</a>
                             </div>
                         </div>
+
                         <div class="card" style="width: 18rem;">
                             <img src="assets/img/auto.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
                               <h5 class="card-title">Concesionario Sport simulador React Js</h5>
                               <p class="card-text">Este fue un proyecto que realize para una entrega final del curso de react js, donde simulo una compra de un auto,este
-                                proyecto no se puede ver desplegado ya que necesita instalarse en el servidor local (no esta subido a un servidor)
+                                proyecto no se puede ver desplegado ya que necesita instalarse en el servidor local (no esta subido a un servidor).
                               </p>
-                              <a href="https://github.com/IgnacioRojos/Concesionario-Sport-React-Js.git" target="_blank" class="btn btn-primary">Ver Repositorio</a>
+                              <button class="btn btn-primary boton1"><a href="https://github.com/IgnacioRojos/Concesionario-Sport-React-Js.git" target="_blank" class="btn btn-primary boton1">Ver Repositorio</a></button>
                             </div>
                         </div>
+
                         <div class="card" style="width: 18rem;">
                             <img src="assets/img/auto.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
                               <h5 class="card-title">Concesionario Sport simulador Js</h5>
                               <p class="card-text">Este fue un proyecto que realize para una entrega final del curso de react js, donde simulo una compra de un auto.
                               </p>
-                              <a href="https://github.com/IgnacioRojos/Concesionario-Sport-simulador-de-compra.git" target="_blank" class="btn btn-primary">Ver Repositorio</a>
-                              <a href="https://ignaciorojos.github.io/Concesionario-Sport-simulador-de-compra/" target="_blank" class="btn btn-primary boton">Ver Página</a>
+                              <button class="btn btn-primary boton1"><a href="https://github.com/IgnacioRojos/Concesionario-Sport-simulador-de-compra.git" target="_blank" class="btn btn-primary boton1">Ver Repositorio</a></button>
+                              <button class="btn btn-primary boton"><a href="https://ignaciorojos.github.io/Concesionario-Sport-simulador-de-compra/" target="_blank" class="btn btn-primary">Ver Página</a></button>
+                            </div>
+                        </div>
+
+                        <div class="card" style="width: 18rem;">
+                            <img src="assets/img/estudio.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Busca A Tu Profe React Js</h5>
+                              <p class="card-text">Esta página se basa en poder encontrar algún profe particular que te pueda ayudar con tus materias pendientes, este proyecto
+                                fue creado con react js para mejorar la velocidad del sitio web. No se puede ver desplegado ya que necesita instalarse en el servidor local
+                                (no esta subido a un servidor).
+                              </p>
+                              <button class="btn btn-primary boton1"><a href="https://github.com/IgnacioRojos/Tu-Profe-Particular-React.git" target="_blank" class="btn btn-primary">Ver Repositorio</a></button>
+                              
                             </div>
                         </div>
                     </div>
@@ -151,12 +180,12 @@
         <div class="row row5">
             <div class="col-lg-12">
             
-                <form id="contacto">
+                <form id="contacto" action="https://formsubmit.co/nachorojos99@gmail.com" method="POST">
                     <h2>Contacto</h2>
                     <div class="mb-3 row">
-                        <label class="col-sm-2 col-form-label">Email</label>
+                        <label class="col-sm-2 col-form-label" for="email">Email</label>
                         <div class="col-sm-10">
-                          <input type="text" class="form-control" id="staticEmail">
+                          <input type="email" class="form-control" id="staticEmail">
                         </div>
                       </div>
                       <div class="mb-3 row">
@@ -166,7 +195,7 @@
                         </div>
                       </div>
                       <div class="mb-3 row">
-                        <label class="col-sm-2 col-form-label">Asunto</label>
+                        <label class="col-sm-2 col-form-label" for="subject">Asunto</label>
                         <div class="col-sm-10">
                           <input type="text" class="form-control" id="inputAsunto">
                         </div>
@@ -176,8 +205,10 @@
                         <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                       </div>
                       <div class="col-auto">
-                        <button type="submit" class="btn btn-primary mb-3">Enviar</button>
+                        <button type="submit" class="btn btn-primary mb-3" value="enviar">Enviar</button>
                       </div>
+
+                      <input type="hidden" name="_next" value="http://127.0.0.1:5500/">
                 </form>
             </div>
         </div>
