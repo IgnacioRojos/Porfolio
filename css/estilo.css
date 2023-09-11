@@ -112,6 +112,11 @@ span {
   text-align: center;
 }
 
+.imgMatching{
+  margin-top: 130px;
+  margin-bottom: 130px;
+}
+
 body{
   transition: .3s ease all;
 
@@ -165,6 +170,88 @@ form{
 
 
 /*css index mobile*/
+
+
+@media only screen and (max-width: 768px){
+  .container{
+    width: 711px;
+  }
+
+  .botonMenu{
+    margin-left: 44px;
+  }
+
+  .nombreIr{
+    font-size: 56px;
+  }
+
+  .profesionIr{
+    font-size: 36px;
+  }
+  .botonVerP{
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+  .tituloQuienSoy{
+    text-align: center;
+    font-size: 50px;
+  }
+  .texto{
+    font-size: 25px;
+  }
+  .boton1{
+    font-size: 30px;
+  }
+
+  .tituloHabilidades{
+    text-align: center;
+    font-size: 50px;
+  }
+
+  .habilidades {
+    margin-top: 20px;
+    margin-left: 46px;
+  }
+  .tituloProyecto{
+    text-align: center;
+    font-size: 50px;
+  }
+
+  .card-text{
+    font-size: 24px;
+  }
+  .card-title{
+    font-size: 30px;
+    padding-bottom: 10px;
+  }
+
+  .tituloContacto{
+    font-size: 50px;
+  }
+
+
+  .col-form-label{
+    font-size: 35px;
+  }
+  .form-label{
+    font-size: 35px;
+  }
+
+  .botonEnviarComent{
+    font-size: 35px;
+  }
+
+  .btnCelu{
+    font-size: 25px;
+  }
+  
+
+
+}
+
+
+
+
 
 
 

@@ -25,11 +25,11 @@
 <body>
     <div class="container">
         <div class="row">
-            <div class="col-lg-12 row0">
+            <div class="col-lg-12 col-12 row0">
                 <nav class="navbar navbar-expand-lg">
                     <a href="#ir" class="nombre" id="ir"><h1>IR</h1></a>
 
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <button class="navbar-toggler botonMenu" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarNav">
@@ -57,23 +57,23 @@
         </div>
 
         <div class="row row1">
-            <div class="col-lg-6" data-aos="fade-right">
+            <div class="col-lg-6 col-12" data-aos="fade-right">
                 <div class="presentacion">
-                    <h1>Ignacio Rojos</h1>
-                    <h2>Desarrollador Front-End</h2>
-                    <a href="#proyectos"><button class="btn btn-primary">Ver Proyectos</button></a>
+                    <h1 class="nombreIr">Ignacio Rojos</h1>
+                    <h2 class="profesionIr">Desarrollador Front-End</h2>
+                    <a href="#proyectos"><button class="btn btn-primary botonVerP">Ver Proyectos</button></a>
                 </div>
                
                 
             </div>
-            <div class="col-lg-6" transition-style ="in:square:bottom-left">
+            <div class="col-lg-6 col-12" transition-style ="in:square:bottom-left">
                 <img class="fotoDec" src="assets/img/desarrollador-750x350.jpg">
             </div>
         </div>
         
         <div class="row row2" id="sobreMi">
-            <div class="col-lg-12">
-                <h2>¿Quien Soy?</h2>
+            <div class="col-lg-12 col-12">
+                <h2 class="tituloQuienSoy">¿Quien Soy?</h2>
                 <div class="texto">Trabajé en varios proyecto de Desarrollo Web, donde repliqué páginas webs con sus respectivas funcionalidades, estos fueron tratados con: HTML, CSS, JS Y REACT JS. 
                     Creé una página web de contacto para un emprendedor dedicado al servicio técnico de computadoras y notebooks.
                     Durante el cursado de Ingeniería en Sistemas desarrollé en PYTHON proyectos educativos, estos fueron llevados a cabo en grupos, 
@@ -82,8 +82,8 @@
                 <a download="Curriculim" href="Curriculum 2.pdf"><button class="btn btn-primary boton1">Descargar Cv</button></a>
             </div>
             <div class="row row3">
-                <div class="col-lg-6 hab">
-                    <h2>Habilidades</h2>
+                <div class="col-lg-6 col-12 hab">
+                    <h2 class="tituloHabilidades">Habilidades</h2>
                 </div>
                 <div class="col">
                     <div class="row row-cols-1 row-cols-md-3 g-4 habilidades">
@@ -101,7 +101,7 @@
         </div>
 
         <div class="row row4">
-            <div class="col-lg-12" id="proyectos">
+            <div class="col-lg-12 col-12" id="proyectos">
                 <h2 class="tituloProyecto">Mis Proyectos</h2>
                 <div class="col">
                     <div class="row row-cols-1 row-cols-md-3 g-4 habilidades">
@@ -143,7 +143,7 @@
                               <p class="card-text">Este fue un proyecto que realize para una entrega final del curso de react js, donde simulo una compra de un auto,este
                                 proyecto no se puede ver desplegado ya que necesita instalarse en el servidor local (no esta subido a un servidor).
                               </p>
-                              <button class="btn btn-primary boton1"><a href="https://github.com/IgnacioRojos/Concesionario-Sport-React-Js.git" target="_blank" class="btn btn-primary boton1">Ver Repositorio</a></button>
+                              <button class="btn btn-primary boton1"><a href="https://github.com/IgnacioRojos/Concesionario-Sport-React-Js.git" target="_blank" class="btn btn-primary boton1 btnCelu">Ver Repositorio</a></button>
                             </div>
                         </div>
 
@@ -153,8 +153,8 @@
                               <h5 class="card-title">Concesionario Sport simulador Js</h5>
                               <p class="card-text">Este fue un proyecto que realize para una entrega final del curso de react js, donde simulo una compra de un auto.
                               </p>
-                              <button class="btn btn-primary boton1"><a href="https://github.com/IgnacioRojos/Concesionario-Sport-simulador-de-compra.git" target="_blank" class="btn btn-primary boton1">Ver Repositorio</a></button>
-                              <button class="btn btn-primary boton"><a href="https://ignaciorojos.github.io/Concesionario-Sport-simulador-de-compra/" target="_blank" class="btn btn-primary">Ver Página</a></button>
+                              <button class="btn btn-primary boton1"><a href="https://github.com/IgnacioRojos/Concesionario-Sport-simulador-de-compra.git" target="_blank" class="btn btn-primary boton1 btnCelu">Ver Repositorio</a></button>
+                              <button class="btn btn-primary boton"><a href="https://ignaciorojos.github.io/Concesionario-Sport-simulador-de-compra/" target="_blank" class="btn btn-primary btnCelu">Ver Página</a></button>
                             </div>
                         </div>
 
@@ -166,7 +166,19 @@
                                 fue creado con react js para mejorar la velocidad del sitio web. No se puede ver desplegado ya que necesita instalarse en el servidor local
                                 (no esta subido a un servidor).
                               </p>
-                              <button class="btn btn-primary boton1"><a href="https://github.com/IgnacioRojos/Tu-Profe-Particular-React.git" target="_blank" class="btn btn-primary">Ver Repositorio</a></button>
+                              <button class="btn btn-primary boton1"><a href="https://github.com/IgnacioRojos/Tu-Profe-Particular-React.git" target="_blank" class="btn btn-primary btnCelu">Ver Repositorio</a></button>
+                              
+                            </div>
+                        </div>
+
+                        <div class="card" style="width: 18rem;">
+                            <img src="assets/img/" class="card-img-top imgMatching" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Matching React Js</h5>
+                              <p class="card-text">Este proyecto se realizó gracias a una pasantia que adquirí mediante la academia en la que estudié. Esta página es una landing
+                                web la cual muestra y se presenta la aplicación matching.
+                              </p>
+                              <button class="btn btn-primary boton1"><a href="https://github.com/IgnacioRojos/Matching-Vite.git" target="_blank" class="btn btn-primary btnCelu">Ver Repositorio</a></button>
                               
                             </div>
                         </div>
@@ -181,7 +193,7 @@
             <div class="col-lg-12">
             
                 <form id="contacto" action="https://formsubmit.co/nachorojos99@gmail.com" method="POST">
-                    <h2>Contacto</h2>
+                    <h2 class="tituloContacto">Contacto</h2>
                     <div class="mb-3 row">
                         <label class="col-sm-2 col-form-label" for="email">Email</label>
                         <div class="col-sm-10">
@@ -205,7 +217,7 @@
                         <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                       </div>
                       <div class="col-auto">
-                        <button type="submit" class="btn btn-primary mb-3" value="enviar">Enviar</button>
+                        <button type="submit" class="btn btn-primary mb-3 botonEnviarComent" value="enviar">Enviar</button>
                       </div>
 
                       <input type="hidden" name="_next" value="http://127.0.0.1:5500/">
