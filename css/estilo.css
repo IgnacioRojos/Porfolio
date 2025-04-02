@@ -33,6 +33,11 @@ body.dark label{
   margin-left: 20px;
 }
 
+.textoHabilidades{
+  margin-left: 31px;
+  margin-top: 250px;
+}
+
 h1{
   color:black;
 }
@@ -41,7 +46,7 @@ h2{
 }
 
 .row2{
-  margin-top: 600px;
+  margin-top: 300px;
 }
 
 .row1{
@@ -49,7 +54,7 @@ h2{
 }
 
 .row4{
-  margin-top: 600px;
+  margin-top: 300px;
 }
 
 .card{
@@ -96,6 +101,10 @@ h2{
   color: #fff;
   }
   
+}
+
+.tituloHabilidades{
+  text-align: center;
 }
 
 
