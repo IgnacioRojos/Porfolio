@@ -1,268 +1,223 @@
-
-/*css index pc*/
-
-nav{
- display: flex;
- justify-content: space-between;
- align-items: center;
- 
+/* ===== CONFIGURACIÓN GENERAL ===== */
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: 'Inter', sans-serif;
+  line-height: 1.6;
+  color: #334155;
+  background-color: #e0f2fe; /* celeste claro */
+  transition: background 0.3s, color 0.3s;
 }
 
-body.dark nav a{
+body.dark {
+  background-color: #0f172a;
+  color: #f1f5f9;
+}
+
+/* ===== NAVBAR ===== */
+nav {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: #e0f2fe; /* igual al body */
+  padding: 0.5rem 1rem;
+  backdrop-filter: none;
+  border-bottom: none;
+  box-shadow: none;
+  transition: background-color 0.3s ease;
+}
+
+body.dark nav {
+  background-color: #0f172a;
+}
+
+nav a {
+  color: #0f172a;
+  font-weight: 600;
+  text-decoration: none;
+  margin: 0 10px;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #2563eb;
+}
+
+body.dark nav a {
+  color: #f1f5f9;
+}
+
+body.dark nav a:hover {
+  color: #60a5fa; /* azul celeste claro en hover modo oscuro */
+}
+
+.nombre h1 {
+  font-weight: 700;
+  font-size: 1.8rem;
+}
+
+.switch {
+  background: #2563eb;
   color: white;
-}
-
-body.dark h1{
-  color: white;
-}
-body.dark h2{
-  color: white;
-}
-
-body.dark div.texto{
-  color: white;
-}
-
-body.dark label{
-  color: white;
-}
-
-
-.habilidades{
-  margin-top: 20px; 
-  margin-left: 20px;
-}
-
-.textoHabilidades{
-  margin-left: 31px;
-  margin-top: 250px;
-  
-}
-
-h1{
-  color:black;
-}
-h2{
-  color: black;
-}
-
-.row2{
-  margin-top: 300px;
-}
-
-.row1{
-  margin-top: 100px;
-}
-
-.row4{
-  margin-top: 300px;
-}
-
-.card{
-  margin-left: 5px;
-}
-
-.switch{
-  background-color: #343D5B;
-  border-radius: 1000px;
-  border: none;
-  position: relative;
+  border-radius: 50%;
+  padding: 0.5rem;
   cursor: pointer;
+  transition: background 0.3s;
+}
+
+.switch:hover {
+  background: #1d4ed8;
+}
+
+/* ===== HERO ===== */
+.hero {
+  background: #e0f2fe; /* igual al body */
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+body.dark .hero {
+  background: #0f172a; /* consistente con modo oscuro */
+}
+
+.hero h1 {
+  font-size: 3rem;
+  color: #0f172a;
+}
+
+body.dark .hero h1 {
+  color: #f1f5f9;
+}
+
+.hero h2 {
+  font-size: 1.5rem;
+  color: #2563eb;
+}
+
+.hero p {
+  max-width: 600px;
+  margin: 1rem auto;
+  color: #475569;
+}
+
+body.dark .hero p {
+  color: #cbd5e1;
+}
+
+.hero .btn {
+  margin: 0.5rem;
+  transition: background 0.3s, color 0.3s;
+}
+
+/* ===== HABILIDADES ===== */
+.habilidades {
   display: flex;
-  outline: none;
-  &::after{
-    content: "";
-    display: block;
-    width: 30px;
-    height: 30px;
-    position: absolute;
-    background: #F1F1F1;
-    top: 0;
-    left: 0;
-    right: unset;
-    border-radius: 100px;
-    transition: .3s ease all;
-    box-shadow: 0px 0px 2px 2px rgba(0,0,0,.2);
-  }
-  &.active{
-    background: orange;
-    color: #000;
-    &::after{
-      right: 0;
-      left: unset;
-    }
-  }
-
-  span {
-  width: 30px;
-  height: 30px;
-  line-height: 30px;
-  display: block;
-  background: none;
-  color: #fff;
-  }
-  
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 2rem;
 }
 
-.tituloHabilidades{
+.fotoHab {
+  border-radius: 12px;
+  width: 150px;
+  height: auto;
+  object-fit: cover;
+  transition: transform 0.3s;
+}
+
+.fotoHab:hover {
+  transform: scale(1.05);
+}
+
+/* ===== PROYECTOS ===== */
+.tituloProyecto,
+.tituloHabilidades,
+.tituloContacto {
   text-align: center;
+  font-weight: 700;
+  margin: 2rem 0 1rem;
 }
 
-
-span {
-  width: 30px;
-  height: 30px;
-  line-height: 30px;
-  display: block;
-  background: none;
-  color: #fff;
+.card {
+  transition: transform 0.3s, box-shadow 0.3s;
 }
 
-.tituloProyecto{
-  text-align: center;
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
 }
 
-.imgMatching{
-  margin-top: 130px;
-  margin-bottom: 130px;
-}
-
-body{
-  transition: .3s ease all;
-
-  &.dark{
-    background-color: #12568d;
-  }
-  
-}
-.boton{
+.boton1, .boton {
   margin-top: 5px;
 }
 
-
-
-.nombre{
-  text-decoration: none;
+/* ===== FORMULARIO ===== */
+form {
+  background: #ffffff;
+  padding: 2rem;
+  border-radius: 12px;
+  max-width: 600px;
+  margin: auto;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
 }
 
-
-.fotoHab{
-  border-radius: 35%;
-  width: 200px;
+body.dark form {
+  background: #1e293b;
 }
 
-
-.hab{
-  margin-top: 200px;
+form .btn {
+  background: #2563eb;
+  border: none;
+  font-weight: 600;
+  color: white;
+  transition: background 0.3s;
 }
 
-@keyframes square-in-bottom-left {
-  from {
-    clip-path: inset(0 0 100% 100%);
-  }
-  to {
-    clip-path: inset(0 0 0 0);
-  }
+form .btn:hover {
+  background: #1d4ed8;
 }
 
-[transition-style="in:square:bottom-left"] {
-  animation: 2.5s cubic-bezier(.25, 1, .30, 1) square-in-bottom-left both;
+body.dark form .btn {
+  background: #3b82f6; /* azul celeste más claro en modo oscuro */
 }
 
-form{
-  padding: 50px 55px;
+body.dark form .btn:hover {
+  background: #60a5fa; /* más claro en hover */
+}
+
+/* ===== FOOTER ===== */
+footer {
   text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+  color: #94a3b8;
 }
 
-
-/*css index pc*/
-
-
-
-/*css index mobile*/
-
-
-@media only screen and (max-width: 768px){
-  .container{
-    width: 711px;
-  }
-
-  .botonMenu{
-    margin-left: 44px;
-  }
-
-  .nombreIr{
-    font-size: 56px;
-  }
-
-  .profesionIr{
-    font-size: 36px;
-  }
-  .botonVerP{
-    font-size: 30px;
-    margin-bottom: 10px;
-  }
-  .tituloQuienSoy{
-    text-align: center;
-    font-size: 50px;
-  }
-  .texto{
-    font-size: 25px;
-  }
-  .boton1{
-    font-size: 30px;
-  }
-
-  .tituloHabilidades{
-    text-align: center;
-    font-size: 50px;
-  }
-
-  .habilidades {
-    margin-top: 20px;
-    margin-left: 46px;
-  }
-  .tituloProyecto{
-    text-align: center;
-    font-size: 50px;
-  }
-
-  .card-text{
-    font-size: 24px;
-  }
-  .card-title{
-    font-size: 30px;
-    padding-bottom: 10px;
-  }
-
-  .tituloContacto{
-    font-size: 50px;
-  }
-
-
-  .col-form-label{
-    font-size: 35px;
-  }
-  .form-label{
-    font-size: 35px;
-  }
-
-  .botonEnviarComent{
-    font-size: 35px;
-  }
-
-  .btnCelu{
-    font-size: 25px;
-  }
-  
-
-
+footer a {
+  color: #2563eb;
+  margin: 0 5px;
+  transition: color 0.3s;
 }
 
+footer a:hover {
+  color: #1d4ed8;
+}
 
+body.dark footer a:hover {
+  color: #60a5fa;
+}
 
-
-
-
-
-/*css index mobile*/
+/* ===== RESPONSIVE ===== */
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 2.2rem;
+  }
+  .hero h2 {
+    font-size: 1.2rem;
+  }
+  .fotoHab {
+    width: 100px;
+  }
+}
