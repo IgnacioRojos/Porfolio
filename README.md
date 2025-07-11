@@ -40,6 +40,10 @@ Si te interesa que forme parte de tu equipo o realizar un proyecto juntos, puede
 
 ---
 
+## Capturas 
+El inicio de mi porfolio <img width="1900" height="911" alt="image" src="https://github.com/user-attachments/assets/d6fc6957-49bb-411f-b8b0-70aabf823ca3" />
+
+
 ## 🔮 Mejoras futuras
 
 - Incorporar **React** para mejorar estructura y escalabilidad
