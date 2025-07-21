@@ -7,7 +7,7 @@ Este proyecto es mi carta de presentación como developer, donde muestro quién 
 👉 Ver Portfolio en vivo
 
 
-🛠️ Tecnologías utilizadas
+## 🛠️ Tecnologías utilizadas
 ⚛️ React JS para estructura de componentes reutilizables.
 
 🖼️ HTML5 y CSS3 para estructura y estilos.
@@ -20,14 +20,14 @@ Este proyecto es mi carta de presentación como developer, donde muestro quién 
 
 🗂️ Git & GitHub para control de versiones.
 
-🎯 Objetivos del proyecto
+## 🎯 Objetivos del proyecto
 ✅ Mostrar de forma clara quién soy y qué puedo aportar como developer.
 ✅ Facilitar el acceso a mis proyectos destacados.
 ✅ Generar un canal de contacto para reclutadores y clientes.
 ✅ Mantener una estética limpia, moderna y profesional.
 ✅ Aplicar React JS en la construcción de un portfolio escalable.
 
-✨ Funcionalidades principales
+## ✨ Funcionalidades principales
 ✅ Hero con presentación e imagen de marca personal.
 ✅ Sobre mí, destacando experiencia y habilidades.
 ✅ Listado de proyectos con enlaces a demos en vivo y GitHub.
@@ -35,7 +35,7 @@ Este proyecto es mi carta de presentación como developer, donde muestro quién 
 ✅ Diseño responsive para celulares, tablets y escritorio.
 ✅ Navegación fluida y transiciones suaves entre secciones.
 
-📬 Contacto
+## 📬 Contacto
 Si te interesa que forme parte de tu equipo o realizar un proyecto juntos, puedes contactarme por:
 
 📧 Email: ignaciorojos.dev@gmail.com
@@ -44,16 +44,16 @@ Si te interesa que forme parte de tu equipo o realizar un proyecto juntos, puede
 
 💻 GitHub: IgnacioRojos
 
-🖼️ Capturas
+## 🖼️ Capturas
 El inicio de mi porfolio <img width="1900" height="911" alt="image" src="https://github.com/user-attachments/assets/d6fc6957-49bb-411f-b8b0-70aabf823ca3" />
 
-🔮 Mejoras futuras
+## 🔮 Mejoras futuras
 ✨ Incorporar animaciones con Framer Motion para transiciones suaves.
 ✨ Mejorar el SEO para posicionamiento en buscadores.
 ✨ Conectar el formulario de contacto con backend (Firebase o Node.js).
-✨ Agregar modo oscuro para mayor personalización.
 
-⭐ Contribuciones y soporte
+
+## ⭐ Contribuciones y soporte
 Si este proyecto te resultó útil o inspirador, puedes darle una ⭐ en GitHub y seguirme para ver mis próximos proyectos.
 
 ¡Gracias por visitar mi portfolio! 🚀
