@@ -36,11 +36,11 @@ Este proyecto es mi carta de presentación como developer, donde muestro quién 
 ## 📬 Contacto
 Si te interesa que forme parte de tu equipo o realizar un proyecto juntos, puedes contactarme por:
 
-📧 Email: ignaciorojos.dev@gmail.com
+📧 Email: nachorojos99@gmail.com
 
-💼 LinkedIn: Ignacio Rojos
+💼 LinkedIn: https://www.linkedin.com/in/ignacio-rojos/
 
-💻 GitHub: IgnacioRojos
+💻 GitHub: https://github.com/IgnacioRojos
 
 ## 🖼️ Capturas
 El inicio de mi porfolio <img width="1900" height="911" alt="image" src="https://github.com/user-attachments/assets/d6fc6957-49bb-411f-b8b0-70aabf823ca3" />
