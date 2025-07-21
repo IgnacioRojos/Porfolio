@@ -1,14 +1,13 @@
-# 🌟 Mi Portfolio Front-End en React JS - Ignacio Rojos
+# 🌟 Mi Portfolio Front-End - Ignacio Rojos
 ¡Bienvenido a mi portfolio como Desarrollador Front-End!
 
 Este proyecto es mi carta de presentación como developer, donde muestro quién soy, mis habilidades, proyectos destacados y formas de contacto, utilizando React JS para mantener una estructura escalable y profesional.
 
 🚀 Deploy en Netlify
-👉 Ver Portfolio en vivo
+👉 Ver Portfolio en vivo https://porfolioignaciorojoshtml.netlify.app/
 
 
 ## 🛠️ Tecnologías utilizadas
-⚛️ React JS para estructura de componentes reutilizables.
 
 🖼️ HTML5 y CSS3 para estructura y estilos.
 
@@ -25,7 +24,6 @@ Este proyecto es mi carta de presentación como developer, donde muestro quién 
 ✅ Facilitar el acceso a mis proyectos destacados.
 ✅ Generar un canal de contacto para reclutadores y clientes.
 ✅ Mantener una estética limpia, moderna y profesional.
-✅ Aplicar React JS en la construcción de un portfolio escalable.
 
 ## ✨ Funcionalidades principales
 ✅ Hero con presentación e imagen de marca personal.
