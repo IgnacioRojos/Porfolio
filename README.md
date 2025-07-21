@@ -1,4 +1,4 @@
-🌟 #Mi Portfolio Front-End en React JS - Ignacio Rojos
+# 🌟 Mi Portfolio Front-End en React JS - Ignacio Rojos
 ¡Bienvenido a mi portfolio como Desarrollador Front-End!
 
 Este proyecto es mi carta de presentación como developer, donde muestro quién soy, mis habilidades, proyectos destacados y formas de contacto, utilizando React JS para mantener una estructura escalable y profesional.
